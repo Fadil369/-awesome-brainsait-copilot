@@ -2,7 +2,7 @@
 
 ## Overview
 
-The BrainSAIT agent ecosystem consists of eight specialized AI agents designed to transform Saudi healthcare operations through intelligent automation, NPHIES integration, and RCM optimization.
+The BrainSAIT agent ecosystem consists of nine specialized AI agents designed to transform Saudi healthcare operations through intelligent automation, NPHIES integration, and RCM optimization.
 
 ## Agent Catalog
 
@@ -211,6 +211,45 @@ patient data to FHIR R4 format with Saudi-specific extensions
 @DataLinc Generate a claim denial analysis report for the last quarter, 
 highlighting top rejection reasons and financial impact
 ```
+
+---
+
+### 9. BupaLinc - Bupa Batch Statement Automation
+
+**Purpose**: Automated batch submission of shortfall claims to Bupa Arabia provider portal
+
+**Capabilities**:
+- Automate batch claim statement submissions
+- Programmatic form filling and data entry
+- Upload PDF supporting documentation
+- Handle Technical/Contractual pricelist shortfall claims
+- Process 10-50+ claims per batch session
+
+**Key Features**:
+- Selenium-based web automation
+- Session persistence (maintains login)
+- File upload automation
+- Error handling and retry logic
+- Detailed logging and audit trails
+- 100% form field accuracy
+
+**Technical Stack**:
+- Python + Selenium WebDriver
+- Chrome remote debugging integration
+- Local file system access
+- CSV/Excel data import ready
+
+**Usage Example**:
+```
+@BupaLinc Process batch submission for 15 shortfall claims from 
+C:\Claims\November\520660 with Technical/Contractual category
+```
+
+**Files**:
+- `bupa_automation.py` - Main automation script
+- `START_CHROME_DEBUG.bat` - Chrome launcher
+- `RUN_BUPA_AUTOMATION.bat` - Automation runner
+- `README_BUPA_AUTOMATION.md` - Full documentation
 
 ---
 
