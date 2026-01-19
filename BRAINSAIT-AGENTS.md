@@ -2,7 +2,7 @@
 
 ## Overview
 
-The BrainSAIT agent ecosystem consists of nine specialized AI agents designed to transform Saudi healthcare operations through intelligent automation, NPHIES integration, and RCM optimization.
+The BrainSAIT agent ecosystem consists of ten specialized AI agents designed to transform Saudi healthcare operations through intelligent automation, NPHIES integration, and RCM optimization.
 
 ## Agent Catalog
 
@@ -250,6 +250,47 @@ C:\Claims\November\520660 with Technical/Contractual category
 - `START_CHROME_DEBUG.bat` - Chrome launcher
 - `RUN_BUPA_AUTOMATION.bat` - Automation runner
 - `README_BUPA_AUTOMATION.md` - Full documentation
+
+---
+
+### 10. TawniaLinc - Tawuniya Rejection Management
+
+**Purpose**: Intelligent claims rejection analysis and appeals automation for Tawuniya insurance
+
+**Capabilities**:
+- Analyze 10,000+ Tawuniya rejection statements
+- Detect and categorize 15 rejection types (250+ patterns)
+- Identify 13 service types automatically
+- Generate professional appeal comments
+- Create executive-ready PDF reports
+- Process multiple hospital branches
+
+**Key Features**:
+- 89.7% proven recovery rate
+- NPHIES code recognition (MN-1-1, CV-4-5, BE-1-3, AD-2-4, etc.)
+- Service-aware comment generation
+- Priority assignment (CRITICAL/HIGH/MEDIUM)
+- Multi-hospital support (4+ branches)
+- Professional Excel + PDF deliverables
+
+**Proven Results**:
+- 10,023+ claims processed across 4 hospitals
+- 250+ rejection patterns recognized
+- 264 ICD-10 diagnosis code patterns
+- 6 analytical CSV outputs
+- SmartClaim Academy clickable button in PDFs
+
+**Usage Example**:
+```
+@TawniaLinc Process MWS Riyadh statement with 2 assistant files,
+generate enhanced Excel, analysis PDF, and recovery recommendations
+```
+
+**Files**:
+- `tawuniya_master_enhanced_system.py` - Core processing engine
+- `tawuniya_smartclaim_page.py` - PDF generator
+- `tawuniya_pdf_design.py` - Professional styling
+- `README_TAWUNIYA.md` - Complete documentation
 
 ---
 
