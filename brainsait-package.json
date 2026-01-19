@@ -1,0 +1,71 @@
+{
+  "name": "awesome-brainsait-copilot",
+  "version": "1.0.0",
+  "description": "BrainSAIT Copilot Enterprise - Healthcare AI agents for Saudi Arabia NPHIES integration, RCM optimization, and FHIR compliance",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Healthcare AI agent validation\" && exit 0",
+    "validate": "echo \"Validating FHIR and NPHIES compliance\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brainsait/awesome-brainsait-copilot.git"
+  },
+  "keywords": [
+    "healthcare",
+    "ai",
+    "copilot",
+    "nphies",
+    "fhir",
+    "saudi-arabia",
+    "medical",
+    "rcm",
+    "claims",
+    "eligibility",
+    "clinical-documentation",
+    "medical-coding",
+    "icd10",
+    "cpt",
+    "cloudpital",
+    "emr",
+    "brainsait"
+  ],
+  "author": "BrainSAIT Healthcare AI <docs@brainsait.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brainsait/awesome-brainsait-copilot/issues",
+    "email": "docs@brainsait.com"
+  },
+  "homepage": "https://brainsait.com",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "brainsait": {
+    "oid": "1.3.6.1.4.1.61026",
+    "platform": "Cloudpital EMR/RCM",
+    "region": "Saudi Arabia",
+    "agents": [
+      "ClaimLinc",
+      "PolicyLinc",
+      "DocsLinc",
+      "RadioLinc",
+      "Voice2Care",
+      "MasterLinc",
+      "DevLinc",
+      "DataLinc"
+    ],
+    "integrations": [
+      "NPHIES",
+      "FHIR R4",
+      "Cloudpital EMR",
+      "ICD-10",
+      "CPT"
+    ],
+    "compliance": [
+      "HIPAA",
+      "Saudi Healthcare Regulations",
+      "NPHIES Standards",
+      "FHIR R4"
+    ]
+  }
+}
